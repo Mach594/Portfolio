@@ -25,3 +25,29 @@ a {
 ul {
     text-align: left;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    padding: 12px;
+    font-size: 50px;
+    font-weight: 700px;
+    align-items: baseline;
+    margin: 0;
+}
+
+.header h3 {
+    text-align: left;
+    margin-left: ;
+}
+
+.logo {
+   text-align: right;
+   background-color: black;
+   color: white;
+   font-family: Georgia;
+   font-size: 50px;
+   font-weight: 700px;
+}
