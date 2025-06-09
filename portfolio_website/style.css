@@ -1,9 +1,60 @@
+/* Search bar and up */
+h6, .search  {
+    text-align: center;
+    margin: 0px;
+
+}
+
+.header-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto
+}
+
+.push-right {
+    margin-left: auto;
+}
+
+/* Directory */
 .flex-container {
     display: flex;
     flex-direction:row-reverse;
     gap: 8px;
     justify-content: space-evenly;
+    background-color:gold;
+    flex: 1 100%;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+/* making attributes more discrete */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* highlight attributes on hovering */
+a:hover {
+    color:aquamarine;
+}
+
+
+
+
+
+/* 
 
 .flex-container h2 {
     border: 100px black;
@@ -18,9 +69,7 @@ body {
     margin: 20px;
 }
 
-a {
-    color: hotpink;
-}
+
 
 ul {
     text-align: left;
@@ -59,4 +108,4 @@ ul {
     margin-top: 0;
     background-color: pink;
     
-}
+} */
