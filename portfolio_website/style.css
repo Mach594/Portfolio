@@ -36,11 +36,12 @@ ul {
     font-weight: 700px;
     align-items: baseline;
     margin: 0;
+    flex-wrap:wrap;
+    align-content: space-evenly;
 }
 
 .header h3 {
     text-align: left;
-    margin-left: ;
 }
 
 .logo {
@@ -50,4 +51,12 @@ ul {
    font-family: Georgia;
    font-size: 50px;
    font-weight: 700px;
+   margin-left: 20px;
+}
+
+.push-right {
+    margin-left: auto;
+    margin-top: 0;
+    background-color: pink;
+    
 }
